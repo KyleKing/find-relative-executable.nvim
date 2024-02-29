@@ -31,7 +31,7 @@ In the below example `eslint (A)` would be found for `file-A.ts` while `eslint (
 local where_is_my_executable = require("where_is_my_executable")
 where_is_my_executable.find("eslint") -- Uses the currently visible buffer
 
--- Or probide your own path
+-- Or provide your own path
 where_is_my_executable.find("flake8", vim.fn.getcwd() .. "some/path/file.py")
 ```
 
