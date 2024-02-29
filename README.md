@@ -1,4 +1,4 @@
-# lua print(vim.fn.getcwd())Where is my executable?
+# Where is my executable?
 
 > WARN
 >
